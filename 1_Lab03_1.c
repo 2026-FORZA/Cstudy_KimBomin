@@ -6,10 +6,10 @@ int main() {
 	scanf("%d %d", &A, &B);
 
 	if (A > B) {
-		printf('>');
+		printf(">");
 	}
 	else if (A < B) {
-		printf(">");
+		printf("<");
 	}
 	else {
 		printf("==");
